@@ -1,12 +1,41 @@
-Predictive Analysis of Employee Turnover using Decision Tree Classification
-This project utilizes a Decision Tree Classifier to analyze and predict employee attrition, helping organizations identify factors that contribute to employee turnover. It serves as a practical demonstration of applying machine learning to solve a real-world human resources problem.
+# Predictive Analysis of Employee Turnover using Decision Tree Classification
 
-Project Highlights
-Machine Learning Application: Developed a classification model to predict a binary outcome (attrition: Yes/No) from a structured dataset.
+This project demonstrates the use of a **Decision Tree Classifier** to analyze and predict **employee attrition**.  
+By identifying key factors that drive turnover, organizations can make informed HR decisions to improve employee retention.  
+It also serves as a practical demonstration of applying **machine learning and recursive algorithms** to solve real-world business problems.
 
-DSA Connection: Showcased knowledge of Data Structures and Algorithms by leveraging the Decision Tree, a classic example of a recursive algorithm that builds a tree data structure to partition data.
+---
 
-Data Preprocessing: Handled a mixed dataset of numerical and categorical features, employing techniques like one-hot encoding to prepare the data for the model.
+## Project Highlights
+- **Machine Learning Application** → Built a classification model to predict employee attrition (Yes/No) using structured HR data.  
+- **DSA Connection** → Demonstrated understanding of **recursive algorithms** through the implementation of a Decision Tree, a fundamental data structure.  
+- **Data Preprocessing** → Handled both numerical and categorical variables, applying **one-hot encoding** and feature scaling where necessary.  
+- **Model Interpretation** → Leveraged the interpretability of decision trees to **visualize decision rules** and identify key attrition drivers.  
 
-Model Interpretation: Utilized the inherent interpretability of a decision tree to visualize the model's decision-making process, providing actionable insights into the key drivers of attrition.
+---
 
+## Repository Structure
+- `employee_attrition_prediction.py` → Main Python script for data preprocessing, model training, evaluation, and visualization.  
+- `requirements.txt` → List of required Python libraries.  
+- `README.md` → Documentation and instructions for project usage.  
+
+---
+
+##  How to Run the Project
+
+### Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+```
+
+### Install Required Libraries
+```
+pip install -r requirements.txt
+
+```
+### Run the Script
+```
+python employee_attrition_prediction.py
+
+```
